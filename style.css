@@ -1,0 +1,100 @@
+body{
+  font-family: 'Anaheim';
+  font-size: 1.2em;
+}
+
+.outside{
+  background-color: lightgoldenrodyellow;
+  padding: 25px;
+  margin: 20px 10px;
+  padding-bottom: 50px;
+}
+
+form{
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  padding: 1em;
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+#survey-form{
+  background-color: white;
+
+}
+
+fieldset{
+  border:1px solid lightgray;
+  margin: 10px;
+  padding: 25px;
+}
+
+legend{
+  font-weight: 700;
+}
+
+#number{
+  width: 180px;
+  }
+
+  input , textarea{
+    border:1px solid #999;
+
+  }
+
+  textarea {
+    /* To properly align multiline text field with their label */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It works only on Chrome, Firefox and Safari */
+    resize: vertical;
+  }
+
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  input:focus, textarea:focus {
+    /* To give a little highligh on active elements */
+    border-color: OrangeRed;
+  }
+
+
+  button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+
+  }
+
+  #submitbutton {
+    display: flex;
+    justify-content: center;
+  }
+
+  #detail,#about,#political{
+    border: 1px solid lightgray;
+    padding: 25px;
+    margin-top: 10px;
+  }
+
+  #send-button{
+    margin: 15px 100px;
+    width: 80%;
+
+    text-align: center;
+  }
